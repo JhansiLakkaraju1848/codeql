@@ -52,7 +52,7 @@ jobs:
           packs:
           - codeql/java-queries
           query-filters:
-          - exclude:
+            exclude:
               problem.severity:
                 - warning
                 - recommendation
