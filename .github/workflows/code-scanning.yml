@@ -49,7 +49,8 @@ jobs:
         with:
           languages: ${{ matrix.language }}
         queries: +security-and-quality
-        packs: codeql/java-queries
+        packs:
+        - codeql/java-queries
         query-filters:
         - exclude:
             problem.severity:
