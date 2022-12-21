@@ -53,7 +53,7 @@ jobs:
           - codeql/java-queries
           query-filters:
           - exclude:
-            problem.severity: warning, recommendation
+              problem.severity: warning, recommendation
         debug: true
           # If you wish to specify custom queries, you can do so here or in a config file.
           # By default, queries listed here will override any specified in a config file.
