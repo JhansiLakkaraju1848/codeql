@@ -49,8 +49,7 @@ jobs:
         with:
           languages: ${{ matrix.language }}
           queries: +security-and-quality
-          packs:
-          - codeql/java-queries
+          packs: codeql/java-queries
           debug: true
           # If you wish to specify custom queries, you can do so here or in a config file.
           # By default, queries listed here will override any specified in a config file.
