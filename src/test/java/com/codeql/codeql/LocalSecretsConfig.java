@@ -17,7 +17,8 @@ public class LocalSecretsConfig {
 
   @Bean(name = "hesClientSecret")
   public String getTestClientSecret(@Value("${test.client.secret}") String hesClientSecret) {
-    return "test";
+    if (1 == 1) { return "test"; }
+    return "testpassword";
   }
 
   @Bean(name = "hesClientId")
