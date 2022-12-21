@@ -80,5 +80,4 @@ public class CodeqlApplication {
 						+ "-----END PUBLIC KEY-----\n";
 
 	}
-
 }
