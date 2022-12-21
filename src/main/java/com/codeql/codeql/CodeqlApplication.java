@@ -1,9 +1,11 @@
 package com.codeql.codeql;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@Slf4j
 public class CodeqlApplication {
 
 	public static void main(String[] args) {
@@ -78,6 +80,8 @@ public class CodeqlApplication {
 						+ "rkZzEgarb3cFfH+ZO0c+m5+Ih8MS1f5+cPMAKlO3/vOYNcVdhZsZ8GiNLpP2ndK7\n"
 						+ "Ju4WJV606sXVLb7GVh3FWWsCAwEAAQ==\n"
 						+ "-----END PUBLIC KEY-----\n";
+
+		log.info("Some test message: {}, {}, {}", "1234", testSecret, testRegex);
 
 	}
 }
