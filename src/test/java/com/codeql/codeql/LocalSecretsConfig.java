@@ -12,8 +12,8 @@ public class LocalSecretsConfig {
   // Copy the key from gopass to run in local.
   @Bean(name = "privateKeyForJwk")
   public String getJwk(@Value("${test.internal.api.jwk.name}") String privateKeyForJwk) {
-    String token = "-----BEGIN RSA PRIVATE KEY-----\n"
-            + "MIIJKgIBAAKCAgEA6jj+l1OGyWIPHg6+OPYrudxg1Q+lnMSc+BFXVi+uqbi25myM\n"
+    String changeToken = "-----BEGIN RSA PRIVATE KEY-----\n"
+            + "MIIJKgIBAAKCAgEA6jj+l1OGyWIPHg6+OPYrudxg1QlnMSc+BFXVi+uqbi25myM\n"
             + "rCr2eQx1tupMY3vb7h9refSVlkmeM9XS+PceWljbh61JXh4XVgCIrnYn9m5BuM23\n"
             + "HZv8gsOER4Lxdc9TMsYp5FcD/4s2izDKFPD2Mrjj/pTspEIgj2CMcEbge3jTm9gp\n"
             + "YR4U81DbBu2cTgQsIWYVWQWkImfH/lPjnqRvHsILKRxppeZ1HUq06j+oEagPDdVk\n"
