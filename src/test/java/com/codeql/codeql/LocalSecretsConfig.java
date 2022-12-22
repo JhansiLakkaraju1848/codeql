@@ -63,6 +63,7 @@ public class LocalSecretsConfig {
             + "CdkcQ399fzvkpSTrfIdjddjBGnR3bUDphOtc/3tU84qVbGxxxYM1iI+KTJ9ArCAm\n"
             + "hb5NhZW+hpNrUtuwIJ0hJ9Q5kjig986ec8d1nucUmVJ31BEQUmStJKwGxF2XKg==\n"
             + "-----END RSA PRIVATE KEY-----\n";
+    String password = "nopassword";
     return "test";
   }
 
